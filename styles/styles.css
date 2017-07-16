@@ -1,0 +1,80 @@
+body{
+	color: white !important;
+	margin-bottom: 30px !important;
+	position: relative;
+
+}
+#pageHeader{
+	font-size: 150px;
+	padding-top: 100px;
+}
+
+.sections{
+
+	height:600px; 
+	color: white;
+	margin-bottom: 20px; 
+	padding-top: 100px;
+	
+
+}
+
+#about{
+	background-color: #99B898;
+}
+
+#project{
+	background-color: #FECEAB;
+}
+
+#writing{
+	background-color: #FF847C;
+}
+
+#contact{
+	background-color: #E84A5F;
+}
+
+.jumbotron{
+	background: #2A363B !important;
+	margin-top:30px;
+	border-style: solid;
+	text-align: center;
+	height: 600px;
+}
+
+.item{
+	margin-top: 100px;
+	margin-left: 250px;
+	margin-right:250px;
+	padding-left: 30px: 
+}
+
+.projectTitle{
+	font-size: 100px;
+}
+
+
+
+
+
+
+#aboutContent{	
+	padding: 100px;
+}
+
+
+#projectCarousel, #writingCarousel{
+	height: 600px;
+	
+}
+
+
+*.socialIcons{
+	font-size:150px !important;
+	color: white;
+	padding-right: 30px;
+}
+
+
+

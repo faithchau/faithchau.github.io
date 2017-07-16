@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+	<title>faith chau</title>
+ 	<link rel = "stylesheet" href= "styles/styles.css" >
+
+ 	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--Font Aweseome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--<script src= "scripts.js"></script>-->
+
+
+
+</head>
+
+
+<body data-spy= "scroll" data-target ="#navbar">
+	
+	<div class = "container-fluid">
+	
+		<nav class = "navbar navbar-default navbar-fixed-top" id = "navbar">
+			<div class = "container-fluid">
+			<!--TODO: icon bar when minimize to small screen-->
+			
+			<ul class = "nav navbar-nav navbar-right">
+				<li class = "active"><a href = "#home">Home</a></li>
+				<li><a href ="#about">ABOUT</a></li>
+				<li><a href = "#project">PROJECT</a></li>
+				<li><a href = "#writing">WRITING</a><li>
+				<li><a href = "#contact">CONTACT</a></li>
+			</ul>
+			</div>
+		</nav>
+			
+		<div class ="jumbotron" id="home">
+			<h1 id = "pageHeader">faith_chau</h1>
+			<h2>printf("hello world"); </h2>
+			
+		</div>
+		
+		
+		
+		
+		<div class = "sections" id = "about">
+			<img id = "portrait" src = "res/portrait.jpg" class = "col-sm-4
+		 img-circle" hspace = 50px >
+			<div id = "aboutContent" class = "col-sm-6">
+			<h1 style= "font-size: 100px">hi, I'm Faith.</h1>
+			<h3>Give me a cup of coffee and we can be friends. Lover of Chocolate. A Complete Geek with no Shame. Who doesn't like the California Sun? </h3>
+			</div>
+		</div>
+		
+		<div class = "sections" id= "project" style = "padding-top: 0px !important;">
+			<div id = "projectCarousel" class = "carousel slide" data-ride = "carousel">
+				<ol class = "carousel-indicators">
+					<li data-target= "#projectCarousel" data-slide-to= "0" class = "active"></li>
+					<li data-target = "#projectCarousel" data-slide-to = "1"></li>
+					<li data-target = "#projectCarousel" data-slide-to = "2"></li>
+				</ol>
+				
+				<div class = "carousel-inner">
+					<div class = "item active project">
+						<h1 class = "projectTitle">Whiteboard</h1>
+						<h2 class ="projectDescription">This project is a Java application that allows users to draw pictures.</h2>
+						<a class = "btn btn-primary" role ="button" href = "https://github.com/faithchau/WhiteBoard" target="_blank">View Souce Code</a>
+					</div>
+					
+					
+					<div class ="item project">
+						<h1 class="projectTitle">Connect Four!</h1>
+						<h2 class ="projectDescription">This Java project is a 2-player game in which each player compete to connect 4 checkers in a row on a grid. </h2>
+						<a class = "btn btn-primary" role ="button" href = "https://github.com/faithchau/cs151_connectFour" target="_blank">View Souce Code</a>
+
+					</div>
+					
+					<div class ="item project">
+						<h1 class="projectTitle">Battleship</h1>
+						<h2 class ="projectDescription">This C application is a simple ASCII game that stimulates the orignal <a href = "https://en.wikipedia.org/wiki/Battleship_(game)" target="_blank"> Battleship game</a>.</h2>
+						<a class = "btn btn-primary" role ="button" href = "#" target="_blank">View Souce Code</a>
+						<!--TODO: upload battleship to github repo -->
+
+					</div>
+				</div>
+				
+				<a class = "left carousel-control" href= "#projectCarousel" data-slide = "prev">
+					<span class = "glyphicon glyphicon-chevron-left"></span>
+					<span class = "sr-only">Previous</span>
+				</a>
+				
+				<a class = "right carousel-control" href= "#projectCarousel" data-slide = "next">
+					<span class = "glyphicon glyphicon-chevron-right"></span>
+					<span class = "sr-only">Next</span>
+				</a>
+			</div>
+					
+		</div>
+		
+		<div class = "sections" id = "writing" style ="padding-top: 0 !important;">
+			<div id= "writingCarousel" class =carousel slide" data-ride ="carousel" data-interval="false">
+				<ol class ="carousel-indicators">
+					<li data-target="#writingCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#writingCarousel" data-slide-to="1"></li>
+					<li data-target="#writingCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class ="carousel-inner"> 
+					<div class = "item active">
+						<h1 class = "projectTitle">America: Land of Reality</h1>
+						<h2>This essay won the Best in Class of <a href = "http://asianpacificfund.org/america-land-of-reality/">2015 Growing up Asian in America Award</a></h2>
+
+						<button type = "button" class ="btn btn-info btn-lg" data-toggle="modal" data-target = "#writing1">Read Essay</button>
+
+						<div id="writing1" class= "modal fade" >
+							<div class="modal-dialog">
+								<div class = "modal-content">
+									<div class = "modal-header">
+										<button type ="button" class = "close" data-dismiss="modal">&times;</button>
+										<h4 class ="modal-title" style="color:black;"> America: Land of Reality</h4>
+									</div>
+
+									<div class ="modal-body" style="color: black;">
+										<p>Every year on the 19th of July, my family gathers around the dinner table and asks the same question:</p>
+										<p>“How would our lives be different if we were still living in Hong Kong?”</p>
+										<p>I don’t deny the possibility that my family would in some ways be better of living in the place where we were born. My mom would still be the head nurse at a hospital and my dad would be a policeman. My sisters and I would live under our maid’s care, not obligated to do any chores. Living in middle-class luxury, worries for the future would be hidden. Communication would not be a concern. Racial discrimination would be nonexistent. Hong Kong would be a place of comfort, not distress. Everything would be settled. Nothing could disturb this utopia.</p>
+										<p>In hopes of having a better education opportunity, we moved to America. Sitting in a third grade classroom after arriving here, I failed to distinguish the difference between a bat, a wooden stick used in baseball, and a bat, a mammal. Living in a world in which English was the dominant way of communication, I had to relearn everything from the alphabet to the dreadful homonyms. Chores were no longer done for the sake of fun; they were my obligation to support the family. Not having the same job occupations as before, I started to notice how hard my parents needed to work in order to provide our basic necessities. I realized this is reality.</p>
+										<p>Reality wakes me up from the spoiled world that I was in. Nothing is inevitable. Contentment is not for certain, but rather, something to go after and earn. Reality causes me to step out of my comfort zone and start over again. It means accepting the changes and adapting to them. Reality pushes me to grow and mature.</p>
+										<p>If I still lived in Hong Kong, I would never have realized the hardships that are involved in life. I would continue to live while solely depending on my parents’ toil. I would blindly come to the assumption that contentment would be inevitable. I would never dream of something outside of my utopia.</p>
+										<p>Hong Kong is no longer my utopia, but rather, a place that I can reflect upon. It signifies my growth and maturity. It serves as a reminder of hardships that I had over the course of living in America. It encourages me to keep striving for something beyond what I already have.
+										After nine years of living in reality, I have come to acknowledge and appreciate the choice my parents made of residing in America. The decision my parents made nine years ago allows me to recognize the immensity of life.
+										America is the land of reality. It enables me to dream something greater; something beyond comfort.</p>
+									</div>
+
+									<div class ="modal-footer">
+										<button type ="button" class = "btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							
+								</div>	
+							</div>
+						</div>
+					</div>	
+
+					<script type="text/javascript">
+						$('#writing1').appendTo("body");
+					</script>
+
+				
+
+					<div class ="item">
+						<h1 class = "projectTitle">Connected</h1>
+						<h2>This essay is written for 2015's Shutterfly scholarship. The prompt asked applicant to discuss ways for a fellow college student to build his or her professional network.</h2>
+
+						<button type = "button" class ="btn btn-info btn-lg" data-toggle="modal" data-target = "#writing2">Read Essay</button>
+
+						<div id="writing2" class= "modal fade" >
+							<div class="modal-dialog">
+								<div class = "modal-content">
+									<div class = "modal-header">
+										<button type ="button" class = "close" data-dismiss="modal">&times;</button>
+										<h4 class ="modal-title" style="color:black;"> Connected</h4>
+									</div>
+
+									<div class ="modal-body" style="color: black;">
+										<p>For a college student, building a professional network can be a challenge. Why? For some, they may be clueless in what career pathway they should take. For others, they may be clueless in who they should approach to start and connect with. For many, they may be clueless in how to present themselves professionally. </p>
+
+										<p>Despite these reasons, how can you, a college student, establish and expand your network successfully?</p>
+
+										<p>Go on a personal exploration. Define yourself. Find out things that interest you the most. Yes, networking is all about meeting new people and establishing relationships; however, it is important to know yourself before approaching others. How can you introduce yourself to people when you barely know yourself? When you know your interests, you will be able to know what group of people you should approach first and the general direction of your path. </p>
+
+										<p>Go on a social exploration. Once you are able to determine the direction you want to follow, establish your connections. Broaden your network by attending job fairs, conventions, and expos. Visit your professors during their office hours, make yourself known, and possibly, ask for opportunities. Take advantage of your school resources regarding internship opportunities and job openings. Join interests clubs and meet your peers who are seeking to extend their networks as well. Get to know people who actually work in the field. Moreover meet people in the internet through social networking sites such as LinkedIn or Facebook . Making connections within the cyberworld can be equally useful as making connections within the real world. The cyberworld enables you to connect with people even when they may be 10,000 miles away from you. You are not limited to meeting people who are only physically near you. </p>
+
+										<p>Stay connected. Build a stronger network by staying in contact with all the people you’ve met. Get to know them more in depth rather than knowing just their names and professions. Be open and take part in conversations among your network. Don’t hesitate to ask questions or to voice out your opinions. Send personalized emails or messages occasionally to update the people on your network of your recent experiences and whereabouts. This way, the connections you have established will not be lost and forgotten. The stronger the bond is the more opportunities that will come in the future.</p>
+
+										<p>Be original. It is tempting to create an appealing profile by misinformation and over-exaggeration. However when people with whom you have connected realize the truth later on, your original intent will backfire and damage your credibility and your network itself that you worked so hard to build. Stay true to yourself. Let others know who you truly are and different aspects of yourself. Talk about your other interests, causes which you support, and past experiences that you have before. Let them learn more about you and your personality. This will also help build a stronger bond between both.</p>
+
+										<p>Be professional. Present yourself in a professional manner. Often times, the people you will meet will be older than you. This is why it is important to respect yourself and respect them as well. The main purpose of building a professional network is to gain opportunities in the future. It might not be the wisest idea to put a picture of yourself making a funny face as your profile picture on LinkedIn. It might be memorable and original but not in a good way. You want to give the people on your network a good sense of maturity and responsibility. Keep your personal life and work life separate. This will reassure them that you are here for business instead of parties and Friday-night-hangouts. In turn, when the time comes, they will be more confident in recommending you for a job, an internship, or any opportunity.</p>
+
+										<p>Get out of your comfort zone. Don’t be afraid of rejections. Don’t be discouraged because you feel you are lack in experience and intelligence. Remember, your knowledge and experience will also expand as you progress throughout college. Be confident in what you know. Be willing to expose yourself in new experiences. Be flexible. It is fine to realize you are no longer interested in the field you have chosen originally and need to start over again. The more people you know from different professions, the more versatility you give yourself in the future.</p>
+
+										<p>The golden key to building a professional network successfully:  Embrace every opportunity and take advantage of every encounter.</p>
+
+									</div>
+
+									<div class ="modal-footer">
+										<button type ="button" class = "btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							
+								</div>	
+							</div>
+						</div>
+						
+
+					<script type="text/javascript">
+						$('#writing2').appendTo("body");
+					</script>
+					</div>
+
+					<div class = "item">
+						<h1 class = "projectTitle">Impactful Programming</h1>
+						<h2>This essay is written for 2016's Facebook University internship program. The prompt asked applicant to explore the ethical impact of a software engineer.</h2>
+
+						<button type = "button" class ="btn btn-info btn-lg" data-toggle="modal" data-target = "#writing3">Read Essay</button>
+
+						<div id="writing3" class= "modal fade" >
+							<div class="modal-dialog">
+								<div class = "modal-content">
+									<div class = "modal-header">
+										<button type ="button" class = "close" data-dismiss="modal">&times;</button>
+										<h4 class ="modal-title" style="color:black;"> Connected</h4>
+									</div>
+
+									<div class ="modal-body" style="color: black;">
+										<p>“Changing the world one line of code at a time.”</p>
+ 
+										<p>I know it’s a bit cheesy. But I still decided to put this on my resume. A friend who looked over my resume once shook his head and advised me to get rid of it. But I still stuck to my guns and kept this line right next to my name and sent it out to the whole world. I have no doubt that this may very well be the reason why I haven’t received any internship offers yet, because it’s awfully cliché. But if you really think about it, this statement encompasses the purpose of what every software engineer and computer scientist should strive for.</p>
+										 
+										<p>Changing the world one line of code at a time is what I strive for.</p>
+										 
+										<p>How then does one impact the world with a simple for-loop? After all, all we are doing is typing furiously in front of our laptops and writing somewhat human readable English and hoping for the best when we test run our programs. It is not too similar to how doctors find cures for a rare disease or how firefighters save someone’s pet cat on a tree.</p>
+										 
+										<p>A simple for-loop can cure illnesses alongside doctors by advancing their medical devices which, in turn, better monitor people’s health condition. A simple conditional statement can save someone’s pet cat alongside firefighters by improving the efficiency of their response system which, in turn, better assist them to arrive on scene at an even faster speed. Even with a simple algorithm, there are already infinite solutions that can be implemented to make a significant difference. </p>
+
+										<p>This is one of the reason why I love this field, for its freedom and endless possibilities. But, like everything else in the world, freedom comes with responsibility.</p>
+
+										<p>Changing the world one line of code at a time is not just fun and games.</p>
+										 
+										<p>Change can be positive or negative. It can be beneficial or detrimental. It can be ethical or unethical. It is up to the hands (and fingers) of the engineers to determine what that very line of code can do and what kind of impact it will make. Even with just a minor modification, code can make or break tens, hundreds, thousands, or even millions of lives. Underestimating the power of writing such a line can be dangerous. Failing to realize how much responsibility comes along with this knowledge can be alarming.</p>
+										 
+										<p>Now, let’s be honest.</p>
+
+										<p>Changing the world one line of code at a time is easier said than done.</p>
+										 
+										<p>The thought of making an impact is grand. Unfortunately, the actual implementation is hard. The outcome can be out of expectation or not what we hope for. It can be discouraging to see the time and effort we invest fall short. Failures are inevitable while the possibility of success seems to be infinitesimal. Is it worth it, then, to still try?</p>
+										 
+										<p>Yes, the process may be cumbersome. But, in the end, every attempt and compiling error will be worth it when that very line of code successfully improves the life of even just one person— or one cat.</p>
+										 
+										<p>Changing the world one line of code is a worthy challenge.</p>
+
+									</div>
+
+									<div class ="modal-footer">
+										<button type ="button" class = "btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+							
+								</div>	
+							</div>
+						</div>
+						
+
+					<script type="text/javascript">
+						$('#writing3').appendTo("body");
+					</script>
+					</div>
+				</div>
+
+				<a class = "left carousel-control" href= "#writingCarousel" data-slide = "prev">
+					<span class = "glyphicon glyphicon-chevron-left"></span>
+					<span class = "sr-only">Previous</span>
+				</a>
+				
+				<a class = "right carousel-control" href= "#writingCarousel" data-slide = "next">
+					<span class = "glyphicon glyphicon-chevron-right"></span>
+					<span class = "sr-only">Next</span>
+				</a>
+
+			</div>
+		</div>
+		
+		<div class = "sections" id = "contact">
+			<h1 style="text-align: center; font-size: 50px;">Find @FaithChau on the World Wide Web!</h1>
+
+			<div style = "padding-top: 100px; text-align: center;">
+			 <a href= "https://github.com/faithchau" target="_blank"><i class = "fa fa-github socialIcons"></i></a>
+
+			 <a href= "https://www.linkedin.com/in/faith-chau/" target= "_blank"><i class = "fa fa-linkedin socialIcons"></i></a>
+
+			 <a href= "https://www.instagram.com/100percentfaith/" target="_blank"><i class = "fa fa-instagram socialIcons" ></i></a>
+
+			  <a href= "https://100percentfaith.wordpress.com/" target="_blank"><i class = "fa fa-wordpress socialIcons" ></i></a>
+
+
+			 </div>
+
+		
+		</div>
+	</div>
+
+
+		
+
+
+</body>
+
+</html>
