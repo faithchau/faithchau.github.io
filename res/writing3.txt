@@ -1,0 +1,25 @@
+<p>“Changing the world one line of code at a time.”</p>
+ 
+										<p>I know it’s a bit cheesy. But I still decided to put this on my resume. A friend who looked over my resume once shook his head and advised me to get rid of it. But I still stuck to my guns and kept this line right next to my name and sent it out to the whole world. I have no doubt that this may very well be the reason why I haven’t received any internship offers yet, because it’s awfully cliché. But if you really think about it, this statement encompasses the purpose of what every software engineer and computer scientist should strive for.</p>
+										 
+										<p>Changing the world one line of code at a time is what I strive for.</p>
+										 
+										<p>How then does one impact the world with a simple for-loop? After all, all we are doing is typing furiously in front of our laptops and writing somewhat human readable English and hoping for the best when we test run our programs. It is not too similar to how doctors find cures for a rare disease or how firefighters save someone’s pet cat on a tree.</p>
+										 
+										<p>A simple for-loop can cure illnesses alongside doctors by advancing their medical devices which, in turn, better monitor people’s health condition. A simple conditional statement can save someone’s pet cat alongside firefighters by improving the efficiency of their response system which, in turn, better assist them to arrive on scene at an even faster speed. Even with a simple algorithm, there are already infinite solutions that can be implemented to make a significant difference. </p>
+
+										<p>This is one of the reason why I love this field, for its freedom and endless possibilities. But, like everything else in the world, freedom comes with responsibility.</p>
+
+										<p>Changing the world one line of code at a time is not just fun and games.</p>
+										 
+										<p>Change can be positive or negative. It can be beneficial or detrimental. It can be ethical or unethical. It is up to the hands (and fingers) of the engineers to determine what that very line of code can do and what kind of impact it will make. Even with just a minor modification, code can make or break tens, hundreds, thousands, or even millions of lives. Underestimating the power of writing such a line can be dangerous. Failing to realize how much responsibility comes along with this knowledge can be alarming.</p>
+										 
+										<p>Now, let’s be honest.</p>
+
+										<p>Changing the world one line of code at a time is easier said than done.</p>
+										 
+										<p>The thought of making an impact is grand. Unfortunately, the actual implementation is hard. The outcome can be out of expectation or not what we hope for. It can be discouraging to see the time and effort we invest fall short. Failures are inevitable while the possibility of success seems to be infinitesimal. Is it worth it, then, to still try?</p>
+										 
+										<p>Yes, the process may be cumbersome. But, in the end, every attempt and compiling error will be worth it when that very line of code successfully improves the life of even just one person— or one cat.</p>
+										 
+										<p>Changing the world one line of code is a worthy challenge.</p>
